@@ -1,0 +1,52 @@
+E:.
+©¦  GoodReads-Data-Mining.ipynb
+©¦  GoodReads-web-crawler-complement.py
+©¦  GoodReads-web-crawler.py
+©¦  README.md
+©¦  requirements.txt
+©¦  shelves.txt
+©¦  shelves_merger.py
+©¦      
+©À©¤books_source_pages
+©¦      .gitkeep
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F1.Harry_Potter_and_the_Half_Blood_Prince
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F10000.The_Face_of_Another
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F100024.Quantum_Physics_of_Atoms_Molecules_Solids_Nuclei_and_Particles
+©¦      ¡­¡­
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F9998.The_Woman_in_the_Dunes
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F999816.Home_to_Harlem
+©¦      https%3A%2F%2Fwww.goodreads.com%2Fbook%2Fshow%2F9999.The_Box_Man
+©¦      
+©À©¤shelves_pages
+©¦      .gitkeep
+©¦      1700_1.json
+©¦      1700_2.json
+©¦      1700_3.json
+©¦      ¡­¡­
+©¦      young-adult_1.json
+©¦      young-adult_2.json
+©¦      young-adult_3.json
+©¦      young-adult_4.json
+©¦      young-adult_5.json
+©¦      
+©À©¤shelves_pages_books_urls
+©¦      .gitkeep
+©¦      1700_1.json
+©¦      1700_2.json
+©¦      1700_3.json
+©¦      ¡­¡­
+©¦      young-adult_1.json
+©¦      young-adult_2.json
+©¦      young-adult_3.json
+©¦      young-adult_4.json
+©¦      young-adult_5.json
+©¦      
+©À©¤stats
+©¦      .gitkeep
+©¦      shelves_stats.json
+©¦      
+©¸©¤_data
+        .gitkeep
+        authors.json
+        books.json
+        genres.json
