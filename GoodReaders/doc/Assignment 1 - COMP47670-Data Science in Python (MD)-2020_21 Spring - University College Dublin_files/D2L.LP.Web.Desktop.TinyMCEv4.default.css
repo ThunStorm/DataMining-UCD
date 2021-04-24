@@ -1,0 +1,100 @@
+
+.d2l-htmleditor .mceLayout {
+	background-color: #FFF;
+	border-style: none !important;
+}
+
+
+.d2l-htmleditor .mceIframeContainer {
+	border-style: none !important;
+	padding: 2px 4px;
+}
+
+
+.mce-edit-area,
+.d2l-htmleditor-iframecontainer { 
+	overflow:auto; 
+	-webkit-overflow-scrolling:touch !important;
+}
+
+.mce-window {
+	background: none repeat scroll 0 0 #fafafa;
+	border-radius: 3px;
+	box-shadow: 0 2px 1px #F4F4F4 inset;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	transition: opacity 150ms ease-in 0s;
+}
+
+.mce-container, 
+.mce-container *, 
+.mce-widget, .mce-widget * {
+	color: #494c4e; 
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.mce-container {
+	border-width: 0 !important;
+}
+
+.mce-panel {
+	background-image: inherit;
+	background-color: #F4F4F4;
+	border: 0 solid #d7d7d7;
+}
+
+.mce-foot {
+	background-color: #F4F4F4;
+	border-radius: 0 0 3px 3px;
+	border-top: 1px solid #d7d7d7;
+	box-shadow: 0 0 6px 1px rgba(180, 180, 205, 0.8);
+}
+
+.mce-btn {
+	-moz-user-select: none;
+	background-clip: padding-box;
+	background-repeat: repeat-x;
+	border: 1px solid #cccccc;
+	display: inline-block;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	min-width: 0px;
+	height: auto !important;
+	width: auto !important;
+	padding: 5px 10px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	line-height: 1.231;
+	margin: 0;
+	margin: 0.15em 0.3em 0.15em 0;
+	text-shadow: inherit;
+	box-shadow: 0 1px 0 0 #FFFFFF inset;
+	color: #000000;
+}
+
+.mce-btn:hover, .mce-btn:focus {
+	background: linear-gradient(to bottom, #fdfdfd 0px, #fafafa 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.mce-btn button {
+	font-size: inherit;
+	font-weight: bold;
+	line-height: inherit;
+	padding: 0px;
+}
+
+.mce-primary {
+	border: 1px solid #017795;
+	background: linear-gradient(to bottom, #3292AA 0px, #017795 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 1px 0 0 #479DB3 inset;
+	color: #ffffff;
+}
+
+.mce-primary:hover, .mce-primary:focus {
+	background: linear-gradient(to bottom, #33A3C0 0px, #038EB2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-color: #038EB2;
+}

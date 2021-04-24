@@ -1,0 +1,133 @@
+﻿/* instructions submission text */
+.d2l-dropbox-submissiontext {
+	max-width: 732px;
+}
+
+/* assignment submission comments */
+.d2l-htmlblock-assignments-comments .d2l-htmlblock {
+	white-space: normal;
+}
+
+.d2l-htmlblock-assignments-comments .d2l-htmlblock p {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* late assignment text */
+.d2l-dropbox-latetext {
+	line-height: normal;
+}
+
+/* assignment folder name */
+.d2l-foldername .dco_c {
+	display: flex;
+	align-items: center;
+}
+
+.d2l-foldername a,
+.d2l-foldername label {
+	white-space: normal;
+}
+
+/* assignment folder list in grid */
+.d2l-folder-list-grid tr.d_gh th.d_gc {
+	min-width:350px;
+}
+
+.d2l-folder-list-grid tr.d_gh th.d_gc ~ th.d_gc {
+	min-width:inherit;
+}
+
+.d2l-folder-list-grid tr.d_gh th.d_gc ~ th.d_gc:last-child {
+	min-width:170px;
+
+}
+
+.d2l-dropbox-feedback .dcs_cf {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* folder_user_mark */
+.d2l-assignment-mark-user .dsl_p_m,
+.d2l-assignment-mark-user .dsl_pmv,
+.d2l-assignment-mark-user .dsl_m,
+.d2l-assignment-mark-user .dsl_pmh {
+	overflow: visible;
+}
+
+.d2l-assignment-mark-user .dsl_p_m {
+	height: calc(100vh - 145px);
+}
+
+.d2l-assignment-mark-user.has-assessment-iterator .dsl_p_m {
+	height: calc(100vh - 208px);
+}
+
+.d2l-assignment-mark-user #z_bg,
+.d2l-assignment-mark-user #z_v,
+.d2l-assignment-mark-user #z_s {
+	background-color: var(--d2l-color-regolith);
+}
+
+.d2l-sticky-button-area {
+	position: sticky;
+	background-color: white;
+	bottom: 0;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	box-shadow: 0 -2px 4px 0 rgba(73,76,78,.2); /* ferrite */
+	border-top: 1px solid var(--d2l-color-mica);
+}
+
+.sticky-assessment-navigation {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    top: 3.3rem;
+}
+
+.d2l-assignment-mark-user.has-assessment-iterator {
+   margin-top: 2.6rem;
+}
+
+@media (max-width: 615px) {
+    .sticky-assessment-navigation {
+        top: 3rem;
+    }
+}
+
+.feedback-container {
+	padding-top: 8px;
+}
+
+.feedback-container .fct_w {
+	padding-bottom: 24px !important;
+	max-width: 600px !important;
+}
+
+.feedback-container .d2l-label {
+	padding-bottom: 18px !important;
+	width: 600px !important;
+	white-space: pre-wrap;
+	font-size: 0.8rem;
+	font-weight: 700;
+	line-height: 1.2rem
+}
+
+.feedback-container p {
+	margin: 0 !important;
+}
+
+.feedback-container div {
+	max-width: 600px !important;
+}
+
+.feedback-container table.d_FG td.fl_n {
+	padding-top: 0px !important;
+}
+
+.feedback-container tr:nth-of-type(2) td {
+	padding-bottom: 0px !important;
+}
