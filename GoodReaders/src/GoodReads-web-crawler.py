@@ -20,7 +20,7 @@ load_dotenv()
 
 BASE_URL = "https://www.goodreads.com"
 # COOKIE = os.getenv("SESSION_ID")
-COOKIE = "_session_id2=12df3dfcae3387f41db9ac57ecd5820e"
+COOKIE = "_session_id2=xxxxxxxxxxxxxxxxxxx"
 # PAGES_PER_SHELF = int(os.getenv("PAGES_PER_SHELF"))
 PAGES_PER_SHELF = 50
 JOBS = cpu_count()
